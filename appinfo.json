@@ -1,0 +1,65 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "mreed",
+    "longName": "pebbleLCARStime",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/lcars_menu.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/bt_disconnect.png",
+                "name": "IMAGE_DISCONNECT",
+                "type": "png"
+            },
+            {
+                "file": "images/bt_connect.png",
+                "name": "IMAGE_CONNECT",
+                "type": "png"
+            },
+            {
+                "file": "images/mouth.png",
+                "name": "IMAGE_MOUTH",
+                "type": "png"
+            },
+            {
+                "file": "images/TREKLOGO1.png",
+                "name": "IMAGE_FACE",
+                "type": "png"
+            },
+            {
+                "file": "fonts/LCARS.ttf",
+                "name": "FONT_LCARS_20",
+                "trackingAdjust": 1,
+                "type": "font"
+            },
+            {
+                "file": "fonts/LCARS.ttf",
+                "name": "FONT_LCARS_30",
+                "trackingAdjust": 2,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9 :]",
+                "file": "fonts/LCARS.ttf",
+                "name": "FONT_LCARS_60",
+                "trackingAdjust": 1,
+                "type": "font"
+            }
+        ]
+    },
+    "shortName": "pebbleLCARS",
+    "uuid": "1227a152-429c-47ae-be11-0f9a2965da2d",
+    "versionCode": 1,
+    "versionLabel": "1.3",
+    "watchapp": {
+        "watchface": true
+    }
+}
